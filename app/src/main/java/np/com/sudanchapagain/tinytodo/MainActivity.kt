@@ -155,9 +155,7 @@ fun taskItem(task: Task, onCheckedChange: (Boolean) -> Unit, onDelete: () -> Uni
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(
                 checked = task.isCompleted, onCheckedChange = onCheckedChange, colors = CheckboxDefaults.colors(
-                    checkedColor = Color.LightGray,
-                    // uncheckedColor = MaterialTheme.colorScheme.primary,
-                    // checkmarkColor = MaterialTheme.colorScheme.onPrimary
+                    checkedColor = Color.LightGray
                 )
             )
             Text(

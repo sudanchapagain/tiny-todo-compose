@@ -1,3 +1,5 @@
+![app icon](./app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp)
+
 tiny todo
 ========
 
